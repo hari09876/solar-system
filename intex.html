@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">SOLAR SYSTEM</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Planets</a></li>
+                <li><a href="#">Astronomy</a></li>
+                <li><a href="#">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Rest of your content goes here -->
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dark Theme Landing Page</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <section class="landing-section">
+        <h1>WELCOM TO OUR SOLAR SYSTEM</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida justo in nisl bibendum, eget aliquet elit tincidunt.</p>
+        <button id="toggle-theme">Toggle Theme</button>
+    </section>
+
+    <script>
+        const toggleThemeButton = document.getElementById('toggle-theme');
+        const body = document.body;
+
+        toggleThemeButton.addEventListener('click', () => {
+            body.classList.toggle('dark-theme');
+        });
+    </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Solar System</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="solar-system">
+        <div class="sun"></div>
+        <div class="planet mercury"></div>
+        <div class="planet venus"></div>
+        <div class="planet earth"></div>
+        <div class="planet mars"></div>
+        <div class="planet jupiter"></div>
+        <div class="planet saturn"></div>
+        <div class="planet uranus"></div>
+        <div class="planet neptune"></div>
+    </div>
+
+    <script>
+        // JavaScript functionality can be added here, such as animations or interactions.
+    </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Planet Section</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <section class="planet-section">
+        <h1>Explore the Planets</h1>
+        <div class="planet" id="earth">
+            <h2>Earth</h2>
+            <p>Earth is the third planet from the Sun and the only celestial body known to support life.</p>
+        </div>
+        <div class="planet" id="mars">
+            <h2>Mars</h2>
+            <p>Mars is often called the Red Planet due to its reddish appearance.</p>
+        </div>
+    </section>
+
+    <script>
+        const earthPlanet = document.getElementById('earth');
+        const marsPlanet = document.getElementById('mars');
+
+        earthPlanet.addEventListener('click', () => {
+            alert("You've selected Earth!");
+        });
+
+        marsPlanet.addEventListener('click', () => {
+            alert("You've selected Mars!");
+        });
+    </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Astronomy Section</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <section class="astronomy-section">
+        <h1>Explore the Universe</h1>
+        <div class="planet" id="earth">
+            <h2>Earth</h2>
+            <p>Earth is the third planet from the Sun and the only celestial body known to support life.</p>
+        </div>
+        <div class="planet" id="mars">
+            <h2>Mars</h2>
+            <p>Mars is often called the Red Planet due to its reddish appearance.</p>
+        </div>
+    </section>
+
+    <script>
+        const earthPlanet = document.getElementById('earth');
+        const marsPlanet = document.getElementById('mars');
+
+        earthPlanet.addEventListener('click', () => {
+            alert("You've selected Earth!");
+        });
+
+        marsPlanet.addEventListener('click', () => {
+            alert("You've selected Mars!");
+        });
+    </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gallery Section</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <section class="gallery-section">
+        <h1> SOLAR SYSTEM GALLERY</h1>
+        <div class="image-container">
+            <img src="1.jpeg" alt="1">
+            <img src="O1DF~1.jpeg" alt="O1DF~1">
+            <img src="3.jpEG" alt="3">
+            <img src="3d_Beach(1).jpeg" alt="3d_Beach(1)">
+        </div>
+    </section>
+
+    <script>
+        const images = document.querySelectorAll('.image-container img');
+        
+        images.forEach(image => {
+            image.addEventListener('click', () => {
+                // You can implement a lightbox or custom behavior for image clicks here.
+                alert(`Clicked on ${image.alt}`);
+            });
+        });
+    </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Education & Research Section</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <section class="education-research-section">
+        <h1>Education & Research</h1>
+        <p>Welcome to our education and research section where we explore fascinating topics in various fields of study.</p>
+        <div class="topic">
+            <h2>Science</h2>
+            <p>Discover the latest breakthroughs in scientific research and innovation.</p>
+        </div>
+        <div class="topic">
+            <h2>History</h2>
+            <p>Uncover the past and learn from the lessons of history.</p>
+        </div>
+    </section>
+
+    <script>
+        const topics = document.querySelectorAll('.topic');
+
+        topics.forEach(topic => {
+            topic.addEventListener('click', () => {
+                // Implement custom behavior for each topic click.
+                alert(`Clicked on ${topic.querySelector('h2').textContent}`);
+            });
+        });
+    </script>
+</body>
+</html>

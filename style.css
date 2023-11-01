@@ -1,0 +1,345 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #dfca0e;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #bccf0d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #069de9;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #17ca80;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.landing-section {
+    background-color: #4de009;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+}
+
+button {
+    background-color: #0d43d8;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c51111;
+}
+
+.dark-theme {
+    background-color: #08bbe7;
+    color: #fff;
+}
+
+.dark-theme .landing-section {
+    background-color: #00ffdd;
+}
+
+.dark-theme button {
+    background-color: #03d1d8;
+}
+body {
+    background-color: #22ca76;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.solar-system {
+    position: relative;
+}
+
+.sun {
+    background: radial-gradient(circle, #FFD700, #FFA500, #FF4500);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.planet {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+}
+
+.mercury {
+    background-color: #5f2ed3;
+    left: 40px;
+    top: 50px;
+}
+
+venus {
+    background-color: #00e28b;
+    left: 80px;
+    top: 70px;
+}
+
+.earth {
+    background-color: #00BFFF;
+    left: 120px;
+    top: 90px;
+}
+
+.mars {
+    background-color: #FF6347;
+    left: 160px;
+    top: 120px;
+}
+
+.jupiter {
+    background-color: #D2B48C;
+    left: 200px;
+    top: 160px;
+}
+
+.saturn {
+    background-color: #DAA520;
+    left: 260px;
+    top: 220px;
+    width: 60px;
+    height: 60px;
+    border: 2px solid #D2B48C;
+}
+
+.uranus {
+    background-color: #00CED1;
+    left: 320px;
+    top: 280px;
+}
+
+.neptune {
+    background-color: #0000CD;
+    left: 380px;
+    top: 320px;
+}
+body {
+    background-color: #111;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.planet-section {
+    background-color: #0323d8;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.planet {
+    background-color: #cf3333;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+.planet:hover {
+    background-color: #aa07d3;
+}
+
+.planet h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.planet p {
+    font-size: 18px;
+}
+body {
+    background-color: #0051e7;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.astronomy-section {
+    background-color: #d319c3;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.planet {
+    background-color: #d11b67;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+.planet:hover {
+    background-color: #d60064;
+}
+
+.planet h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.planet p {
+    font-size: 18px;
+}
+body {
+    background-color: #d329c5;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.gallery-section {
+    background-color: #cc1452;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+img:hover {
+    opacity: 0.8;
+}
+body {
+    background-color: #111;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.education-research-section {
+    background-color: #333;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.topic {
+    background-color: #555;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+.topic:hover {
+    background-color: #777;
+}
+
+.topic h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.topic p {
+    font-size: 18px;
+}
